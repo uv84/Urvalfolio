@@ -21,9 +21,9 @@
 //   children: UnistNode[];
 // }
 
-// export interface NpmCommands {
-//   __pnpm__?: string;
-//   __yarn__?: string;
-//   __npm__?: string;
-//   __bun__?: string;
-// }
+export interface NpmCommands {
+  __pnpm__?: string;
+  __yarn__?: string;
+  __npm__?: string;
+  __bun__?: string;
+}

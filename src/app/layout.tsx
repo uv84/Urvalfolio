@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import ico from "../assets/images/favicon-32x32.png"
+
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import type { WebSite, WithContext } from "schema-dts";
@@ -8,6 +8,8 @@ import { Providers } from "@/components/providers";
 import { META_THEME_COLORS, SITE_INFO } from "@/config/site";
 import { USER } from "@/features/profile/data/user";
 import { fontMono, fontSans } from "@/lib/fonts";
+
+import ico from "../assets/images/favicon-32x32.png"
 
 function getWebSiteJsonLd(): WithContext<WebSite> {
   return {
@@ -64,11 +66,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: ico,
+        url: typeof ico === "string" ? ico : (ico && "src" in ico ? ico.src : ""),
         sizes: "any",
       },
       {
-        url: ico,
+        url: typeof ico === "string" ? ico : (ico && "src" in ico ? ico.src : ""),
         type: "image/svg+xml",
       },
     ],

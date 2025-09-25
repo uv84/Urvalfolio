@@ -17,7 +17,6 @@ import {
 import { Tag } from "@/components/ui/tag";
 import { SimpleTooltip } from "@/components/ui/tooltip";
 import { Prose } from "@/components/ui/typography";
-
 import { addQueryParams } from "@/utils/url";
 
 import type { Project } from "../../types/projects";

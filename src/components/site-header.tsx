@@ -1,10 +1,8 @@
 import dynamic from "next/dynamic";
-import Link from "next/link";
 
 import { DesktopNav } from "@/components/desktop-nav";
 import { NavItemGitHub } from "@/components/nav-item-github";
 import { MAIN_NAV } from "@/config/site";
-
 import { cn } from "@/lib/utils";
 
  import { SiteHeaderMark } from "./site-header-mark";
@@ -13,9 +11,6 @@ import { ToggleTheme } from "./toggle-theme";
 
 
 
-const CommandMenu = dynamic(() =>
-  import("@/components/command-menu").then((mod) => mod.CommandMenu)
-);
 
 const MobileNav = dynamic(() =>
   import("@/components/mobile-nav").then((mod) => mod.MobileNav)

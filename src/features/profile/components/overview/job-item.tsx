@@ -4,9 +4,6 @@ import {
   LightbulbIcon,
 } from "lucide-react";
 
-import { UTM_PARAMS } from "@/config/site";
-import { addQueryParams } from "@/utils/url";
-
 import { IntroItem } from "./intro-item";
 
 function getJobIcon(title: string) {

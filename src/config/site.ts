@@ -24,4 +24,8 @@ export const MAIN_NAV: NavItem[] = [
 export const SOURCE_CODE_GITHUB_REPO = "https://github.com/uv84";
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/uv84";
 
-
+export const UTM_PARAMS = {
+  utm_source: "chanhdai.com",
+  utm_medium: "referral",
+  utm_campaign: "component-docs",
+};

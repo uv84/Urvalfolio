@@ -1,5 +1,5 @@
-import type { User } from "@/features/profile/types/user";
 import avatar from "@/assets/images/avatar.jpg";
+import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
   firstName: "Urval",
