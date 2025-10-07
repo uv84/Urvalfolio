@@ -22,7 +22,7 @@ export function ProfileHeader() {
         </div>
 
         <SimpleTooltip content="I'm from India">
-          {/* Flag of Viet Nam */}
+          {/* Flag of India*/}
 
           <svg
             className="absolute top-0 -left-px h-8 sm:h-9"
@@ -59,22 +59,6 @@ export function ProfileHeader() {
               );
             })}
           </svg>
-
-
-
-
-
-          {/* <svg
-            className="absolute top-0 -left-px h-8 sm:h-9"
-            viewBox="0 0 30 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="30" height="20" fill="#F00" />
-            <polygon
-              points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85"
-              fill="#FFEB00"
-            />
-          </svg> */}
         </SimpleTooltip>
       </div>
 

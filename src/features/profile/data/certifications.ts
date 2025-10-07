@@ -30,6 +30,15 @@ export const CERTIFICATIONS: Certification[] = [
     credentialURL:
       "https://drive.google.com/file/d/1Lj-kGJLWNY106ecXZ48o8h9X-cfADFan/view?usp=sharing",
   },
+  {
+    title: "Next.js App Router Fundamentals",
+    issuer: "Vercel",
+    issuerIconName: "vercel",
+    issueDate: "2025-10-07",
+    credentialID: "dashboard-app",
+    credentialURL:
+      "https://nextjs.org/learn/certificate?course=dashboard-app&user=101953&certId=dashboard-app-101953-1759794910571",
+  },
   // {
   //   title: "Certificate of Copyright Registration No. 7994/2024/QTG",
   //   issuer: "Copyright Office of Viet Nam",
