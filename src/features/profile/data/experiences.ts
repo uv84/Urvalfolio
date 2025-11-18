@@ -69,7 +69,7 @@ export const EXPERIENCES: Experience[] = [
           "MongoDB",
           "Inngest",
           "Express",],
-        isExpanded: true,
+        isExpanded: false,
       },
     ],
     isCurrentEmployer: true,

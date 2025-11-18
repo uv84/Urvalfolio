@@ -60,7 +60,7 @@ and a digital Zen garden feature for stress relief.
 `,
 
 
-    isExpanded: true,
+    isExpanded: false,
   },
 //   {
 //     id: "chanhdaidotcom",

@@ -39,6 +39,17 @@ export const CERTIFICATIONS: Certification[] = [
     credentialURL:
       "https://nextjs.org/learn/certificate?course=dashboard-app&user=101953&certId=dashboard-app-101953-1759794910571",
   },
+  {
+    title: "Next.js SEO Fundamentals",
+    issuer: "Vercel",
+    issuerIconName: "vercel",
+    issueDate: "2025-10-07",
+    credentialID: "seo",
+    credentialURL:
+      "https://nextjs.org/learn/certificate?course=seo&user=101953&certId=seo-101953-1763497635959",
+  },
+  
+  
   // {
   //   title: "Certificate of Copyright Registration No. 7994/2024/QTG",
   //   issuer: "Copyright Office of Viet Nam",
